@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Omega Travel</title>
+</head>
+<body>
+    <div class="section1">   
+       
+        <div class="navigation_block"> 
+
+            <div class="left_menu">                            
+                    <div class="company_name"><b>O M E G A</b>&nbsp t r a v e l</div>              
+
+                    <div class="toggle-menu" id="toggleButton">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+            </div>
+
+            <div class="right_menu">
+                <ul>
+                    <li>
+                        <a class="active" href="index.htl">HOME</a>
+                    </li>
+
+                    <li>
+                        <a class="#">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a class="#">SERVICES</a>
+                    </li>
+
+                    <li>
+                        <a class="#">TRIP</a>
+                    </li>
+
+                    <li>
+                        <a class="#">REVIEWS</a>
+                    </li>
+
+                    <li>
+                        <a class="#">BLOG</a>
+                    </li>                      
+
+                </ul>
+
+                <div class="btn">                  
+                        <button type="button">□<br>TALK TO US</button>                 
+                </div>               
+            </div>    
+        </div>        
+        <div class="promo_text">
+            <h3>EXCELLENT TOURS AT EXCELLENT PRICES!</h3>
+            <h1>CONVENIENT SEARCH</h1>
+        </div>
+        <div class="btn2">
+            <button type="button">MORE INFO</button>
+        </div>         
+    </div>
+
+    <div class="section2">
+        <div class="main_wrapper">
+            <div class="text_wrapper">
+                <h2>More Than 20 years <br>of Experience</h2>
+                <h3>Ngga ada itu dua puluh tahun, baru bikin aja ini, <br>gaya gayaan aja buat nipu kalian</h3>
+                <div class="line_image">
+                    <img src="assets/img/Line%201.png">
+                </div>
+                    <p>Lorem ipsum dolor sit amet, id altera persequeris vim, <br> mea an appareat prodesset. Cu mea error eripuit delicata.<br> Nec soluta aliquid similique eu, eu melius constituam sit.<br> Et nam soleat accusamus. Vim hinc aeque viderer no, ei<br> aeque viris euismod quo. Id qui altera equidem.</p>
+                <div class="btn3">
+                    <button type="button">ABOUT US</button>
+                </div>
+            </div>        
+            <div class="photo_wrapper">
+                <div class="photo1">
+                    <img src="assets/img/Group%204.png">
+                </div>
+                <div class="photo2">
+                    <img src="assets/img/Group%203.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Validation --> 
+    <div class="section3"> 
+        <div class="emailSubscription">
+            <h4>Subscribe to our newsletter for deal & promo</h4>            
+            <form action="" id="form-wrapper">
+                <div class="email">        
+                    <input class="input-box" type="email" id="myemail" name="email" placeholder="Youremail@address.com" onkeydown="validation()">
+                    <span id="email-text"></span>
+                </div> 
+                <div>
+                    <input type="submit" value="SUBSCRIBE">
+                </div>                
+            </form>            
+        </div>
+    </div>    
+
+    <!-- posts -->
+    <div class="section4">
+        <div class="header">
+            <div class="line_image2">
+                <img src="assets/img/Line%207.png">
+            </div>            
+            <h2>SERVICES</h2>
+            <h4>Travel and change of place impart new vigor to the mind.</h4>
+        </div>
+        <div class="post-wrapper">
+            <div class="post1">    
+                    <div class="posts" div id="posts">                      
+                        <ul id="list"></ul>
+                        <button id="loadprev">LOAD PREVIOUS USERS</button>
+                        <button id="loadnext">LOAD NEXT USERS</button>
+                    </div>         
+            </div>
+     
+            <div class="post2" id="post-block-wrapper">
+                <div class="heading">
+                    <div class="line_image2">
+                        <img src="assets/img/Line%207.png">
+                    </div> 
+                    <h2>SPECIAL OFFERS</h2>
+                </div>
+            </div>
+            <div class="overlay" id="overlay-post">
+                <div class="content" id="content"></div>
+                <div class="close" id="closeOverlay"> X </div>
+            </div>
+            <div class="add-post" id="add"> + </div>
+            <div class="overlay-add" id="postoverlay">
+                <form action="" id="form">
+                    <div>
+                        <label for="namePost"> POST NAME</label>
+                        <input type="text" name="name" id="namePost">
+                    </div>
+                    <div>
+                        <label for="postEmail"> POST EMAIL</label>
+                        <input type="text" name="email" id="postEmail">
+                    </div>
+
+                    <button id="addFormPost">ADD POST</button>
+                </form>
+            </div>            
+        </div>            
+    </div>
+
+ <!-- Slider -->
+    <div class="section5" id="slider-section">
+        <div class="slider-wrapper">
+            <button class="arrow arrow-left" id="arrow-left"> <img src="assets/img/Left%20Arrow.png"> </i>  </button>
+            <button class="arrow arrow-right" id="arrow-right"> <img src="assets/img/Right%20Arrow.png"></i> </button>
+
+            <div class="slider_header">
+                <div class="line_image3">
+                    <img src="assets/img/Line%2011.png">
+                </div>    
+                <h2 id="slider-title">REVIEWS</h2>
+                <h4 id="sub-title">Wherever you go, go with all your heart.</h4>
+            </div>
+    
+            <div class="slider_content">
+                <div class="text_wraper2">
+                    <h3 id="rev1"></h3>
+                    <p id="p-content"></p>
+                    <h4 id="travelers"></h4>
+                </div>
+            </div>
+
+            <!-- <div class="dots-wrapper" id="dots">
+                <div class="dot"></div>
+            </div> -->
+
+        </div>
+    </div>
+
+<!-- accordion- -->
+    <div classs="section6">
+        <div class="header-6">
+            <div class="line_image2">
+                <img src="assets/img/Line%207.png">
+            </div>            
+            <h2>BLOG</h2>
+            <h4>He who does not travel does not know the value of men.</h4>
+        </div>
+       <!-- <div class="accordion-wrapper"> -->
+            <div class="accordion">
+                <div class="container">
+                    <h3 class="accordion-title">Iceland on a budget: 13 ways to save money in 2018</h3>
+                    <img src="assets/Line%2016.png">
+                    <p class="accordion-content">Lorem ipsum dolor sit amet, id altera persequeris vim, mea an appareat prodesset. Cu mea error eripuit delicata. Nec soluta aliquid similique eu. orem ipsum dolor sit amet, id altera persequeris vim, mea an appareat prodesset. Cu mea error eripuit delicata. Nec soluta aliquid similique eu.</p>
+                </div>
+
+                <div class="container">
+                    <h3 class="accordion-title">Top Mobile Apps for Travellers</h3>
+                    <img src="assets/Line%2016.png">
+                    <p class="accordion-content">In this tech savvy world, most of what you need to plan a trip and see the world is available at your fingertips. Here are the best mobile apps for travel. In this tech savvy world, most of what you need to plan a trip and see the world is available at your fingertips. Here are the best mobile apps for travel.</p>
+                </div>
+
+                <div class="container">
+                    <h3 class="accordion-title">10 Reasons to visit Australia in 2018</h3>
+                    <img src="assets/Line%2016.png">
+                    <p class="accordion-content">Lorem ipsum dolor sit amet, id altera persequeris vim, mea an appareat prodesset. Cu mea error eripuit delicata. Nec soluta aliquid similique eu. Lorem ipsum dolor sit amet, id altera persequeris vim, mea an appareat prodesset. Cu mea error eripuit delicata. Nec soluta aliquid similique eu.</p>
+                </div>
+            </div>
+
+       <!-- </div>  -->
+    </div>
+
+<!-- filter -->
+    <div class="section7">
+        <h2 class="filtering">TALK TO US</h2>
+        <div class="container-filter">
+            <div class="search-bloc">
+                <h3>CONTACT US</h3>
+                <input type="text" id="filter">
+            </div>      
+        </div>
+
+        <ul id="result" class="user-list">
+    
+        </ul>     
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class= "footer_left">
+            <h3>OMEGA travel</h3>
+            <h4>2018 All Right Reserved</h4>
+
+        </div>
+        <div class= "footer_right">
+            <ul>
+                <li><a class="#">FAQ</a></li>
+                <li><a class="#">HELP</a></li>
+                <li><a class="#">PRIVACY</a></li>
+                <li><a class="#">TERM</a></li>
+            </ul>
+            
+        </div>
+
+
+    </div>
+
+    <div id="api"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
